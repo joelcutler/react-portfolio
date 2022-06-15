@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,241 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* GLOBAL STYLES vv*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  color: var(--secondary-color);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: var(--tertiary-color);
+}
+
+:root {
+  --primary-color: #005f00;
+  --secondary-color: #000000;
+  --tertiary-color: #707070;
+  --highlight-color: #00b400;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: inset, 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  text-align: center;
+  margin: 0 20px 5px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+h2 {
+  font-size: 1.6vw;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  margin: 5px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px;
+  border: 5 px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  border: rgba(0, 0, 0, 0.5);
+}
+
+/* GLOBAL STYLES ^^*/
+
+/* HEADER STYLES vv*/
+
+header {
+  padding: 20px 20px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 5px solid var(--secondary-color);
+}
+
+header h1 {
+  font-weight: bolder;
+  margin: 0;
+  font-size: 2vw;
+  color: var(--primary-color);
+}
+
+header a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 1.8vw;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+header nav ul li a:hover {
+  transition: background-color 1s;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 20px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* HEADER STYLES ^^*/
+
+/* BIO STYLES vv*/
+
+/* #bio article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  border:rgba(0, 0, 0, 0.5);
+} */
+
+/* BIO STYLES ^^*/
+
+/* WORK STYLES vv*/
+
+/* #work article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  border:rgba(0, 0, 0, 0.5);
+} */
+
+#work img {
+  border: 10px solid var(--primary-color);
+  border-radius: 15px;
+  transition: border 1s linear;
+}
+
+#work a img:hover {
+  border: 10px solid var(--highlight-color);
+}
+
+/* #trivia-img {
+    max-height: 25%;
+    max-width: 25%;
+} */
+
+/* WORK STYLES ^^*/
+
+/* CONTACT STYLES vv */
+
+#contact p {
+  margin-top: 2.5rem;
+  font-size: 18px;
+}
+
+#contact address {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  border: 5px;
+}
+
+#contact a {
+  color: var(--primary-color);
+}
+
+#contact a:hover {
+  transition: color 1s;
+  color: var(--highlight-color);
+}
+
+/* CONTACT STYLES ^^ */
+
+/* MEDIA QUERIES vv */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+}
+
+/* MEDIA QUERIES ^^ */

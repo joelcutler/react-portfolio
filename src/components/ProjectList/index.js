@@ -16,7 +16,7 @@ function ProjectList() {
     {
       name: "Shred It!",
       link: "https://shred-it.herokuapp.com/",
-      img: "./assets/shred-it.png",
+      img: "./assets/shred-it.jpg",
     },
     {
       name: "TaskMaster Pro",

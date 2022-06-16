@@ -5,9 +5,9 @@ function Project({ project }) {
   return (
     <article>
       <div>
-        <h3></h3>
-        <a href="https://joelcutler.github.io/run-buddy/">
-          <img src="./assets/img/run-buddy.jpg" alt="Run Buddy" />
+        <h3>{project.name}</h3>
+        <a href={project.link}>
+          <img src={project.img} alt={project.name} />
         </a>
       </div>
     </article>

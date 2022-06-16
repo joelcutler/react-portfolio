@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
@@ -22,7 +24,7 @@ function Nav(props) {
           <a href="#bio">About Me</a>
         </li>
         <li>
-          <a href="#work">Work</a>
+          <Link to="work">Work</Link>
         </li>
         <li>
           <a href="#contact">Contact Me</a>

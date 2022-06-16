@@ -21,16 +21,16 @@ function Nav(props) {
     <nav>
       <ul>
         <li>
-          <a href="#bio">About Me</a>
+          <Link to="/">About Me</Link>
         </li>
         <li>
-          <Link to="work">Work</Link>
+          <Link to="/work">Work</Link>
         </li>
         <li>
-          <a href="#contact">Contact Me</a>
+          <Link to="/contact">Contact Me</Link>
         </li>
         <li>
-          <a href="#">Resume</a>
+          <Link to="/resume">Resume</Link>
         </li>
       </ul>
     </nav>

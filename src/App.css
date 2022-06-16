@@ -186,13 +186,48 @@ header nav ul li a:hover {
   border:rgba(0, 0, 0, 0.5);
 } */
 
-#work img {
+#contact {
+  text-align: center;
+  margin: 4rem;
+}
+/* #contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */
+
+#contact-button {
+  width: 30%;
+  align-self: center;
+  border-radius: 15px;
+}
+
+.contact-inputs {
+  margin: 0.25rem;
+}
+
+.control-group {
+  width: 56%;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#resume {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+}
+
+.link-image img {
   border: 10px solid var(--primary-color);
   border-radius: 15px;
   transition: border 1s linear;
 }
 
-#work a img:hover {
+.link-image a img:hover {
   border: 10px solid var(--highlight-color);
 }
 

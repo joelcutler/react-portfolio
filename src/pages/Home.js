@@ -1,4 +1,10 @@
 import React from "react";
+import bio1 from "../assets/fb0a300.jpg";
+import bio2 from "../assets/fb3a300.jpg";
+import bio3 from "../assets/fb1a300.jpg";
+import bio4 from "../assets/fb5a300.jpg";
+import bio5 from "../assets/fb4a300.jpg";
+import bio6 from "../assets/fb2a300.jpg";
 
 function Home() {
   return (
@@ -7,31 +13,28 @@ function Home() {
       <article>
         <div>
           <img
-            src="./assets/fb0a300.jpg"
+            src={bio1}
             alt="Joel hiking with his puppy Rio in his backpack"
           />
         </div>
         <div>
-          <img src="./assets/fb3a300.jpg" alt="Joel Snowboarding" />
+          <img src={bio2} alt="Joel Snowboarding" />
         </div>
         <div>
           <img
-            src="./assets/fb1a300.jpg"
+            src={bio3}
             alt="Joel holding an AK-47 with his dog Rio on his shoulder"
           />
         </div>
         <div>
-          <img
-            src="./assets/fb5a300.jpg"
-            alt="Joel enjoying a swimming pool in Mexico"
-          />
+          <img src={bio4} alt="Joel enjoying a swimming pool in Mexico" />
         </div>
         <div>
-          <img src="./assets/fb4a300.jpg" alt="Joel Wakeboarding" />
+          <img src={bio5} alt="Joel Wakeboarding" />
         </div>
         <div>
           <img
-            src="./assets/fb2a300.jpg"
+            src={bio6}
             alt="Joel sitting in Goblin Valley with his dog Rio"
           />
         </div>

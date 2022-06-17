@@ -1,32 +1,38 @@
 import React from "react";
 import Project from "../Project";
 
+import runBuddy from "../../assets/run-buddy.jpg";
+import trivia from "../../assets/trivia-logo-400px.png";
+import shredIt from "../../assets/shred-it.jpg";
+import taskMaster from "../../assets/taskmaster.jpg";
+import weather from "../../assets/weather.jpg";
+
 function ProjectList() {
   const projects = [
     {
       name: "Run Buddy",
       link: "https://joelcutler.github.io/run-buddy/",
-      img: "./assets/run-buddy.jpg",
+      img: runBuddy,
     },
     {
       name: "Try My Trivia!",
       link: "https://joelcutler.github.io/try-my-trivia/",
-      img: "./assets/trivia-logo-400px.png",
+      img: trivia,
     },
     {
       name: "Shred It!",
       link: "https://shred-it.herokuapp.com/",
-      img: "./assets/shred-it.jpg",
+      img: shredIt,
     },
     {
       name: "TaskMaster Pro",
       link: "https://joelcutler.github.io/taskmaster-pro/",
-      img: "./assets/taskmaster.jpg",
+      img: taskMaster,
     },
     {
       name: "Weather Dashboard",
       link: "https://joelcutler.github.io/weather/",
-      img: "./assets/weather.jpg",
+      img: weather,
     },
   ];
 

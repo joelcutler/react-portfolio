@@ -8,7 +8,7 @@ function Resume() {
       <a id="resume" href="./assets/resume.jpg" download>
         <img src="./assets/resume.jpg" alt="lorem ipsum resume" />
       </a>
-      <p>Right-click this image, then select Save Link As to download</p>
+      <p>To Download, right-click this image and select 'Save Link As'</p>
     </section>
   );
 }

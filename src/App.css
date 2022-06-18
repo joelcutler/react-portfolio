@@ -304,6 +304,10 @@ header nav ul li a:hover {
     width: 100%;
     max-width: 600px;
   }
+  #contact p {
+    margin-top: 2.5rem;
+    font-size: 12px;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -312,6 +316,10 @@ header nav ul li a:hover {
   img {
     width: 100%;
     max-width: 500px;
+  }
+  #contact p {
+    margin-top: 2.5rem;
+    font-size: 10px;
   }
 }
 

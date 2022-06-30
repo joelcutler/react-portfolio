@@ -4,8 +4,9 @@ import Project from "../Project";
 import runBuddy from "../../assets/run-buddy.jpg";
 import trivia from "../../assets/trivia-logo-400px.png";
 import shredIt from "../../assets/shred-it.jpg";
-import taskMaster from "../../assets/taskmaster.jpg";
+// import taskMaster from "../../assets/taskmaster.jpg";
 import weather from "../../assets/weather.jpg";
+import forceFit from "../../assets/force-fit.jpg";
 
 function ProjectList() {
   const projects = [
@@ -25,10 +26,15 @@ function ProjectList() {
       img: shredIt,
     },
     {
-      name: "TaskMaster Pro",
-      link: "https://joelcutler.github.io/taskmaster-pro/",
-      img: taskMaster,
+      name: "Force Fit",
+      link: "https://force-fit-order-66.herokuapp.com/",
+      img: forceFit,
     },
+    // {
+    //   name: "TaskMaster Pro",
+    //   link: "https://joelcutler.github.io/taskmaster-pro/",
+    //   img: taskMaster,
+    // },
     {
       name: "Weather Dashboard",
       link: "https://joelcutler.github.io/weather/",

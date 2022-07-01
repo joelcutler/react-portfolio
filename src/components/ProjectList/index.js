@@ -6,7 +6,7 @@ import trivia from "../../assets/trivia-logo-400px.png";
 import shredIt from "../../assets/shred-it.jpg";
 // import taskMaster from "../../assets/taskmaster.jpg";
 import weather from "../../assets/weather.jpg";
-import forceFit from "../../assets/force-fit.jpg";
+import forceFit from "../../assets/opt-force-fit.jpg";
 
 function ProjectList() {
   const projects = [

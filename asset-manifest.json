@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.06a2216b.css",
-    "main.js": "/react-portfolio/static/js/main.1ee92f11.js",
+    "main.js": "/react-portfolio/static/js/main.e48ee765.js",
     "static/js/787.49db043d.chunk.js": "/react-portfolio/static/js/787.49db043d.chunk.js",
     "static/media/run-buddy.jpg": "/react-portfolio/static/media/run-buddy.aeb8fd015b7895255f06.jpg",
+    "static/media/opt-force-fit.jpg": "/react-portfolio/static/media/opt-force-fit.0bf6aa08c3758726cd97.jpg",
     "static/media/fb2a300.jpg": "/react-portfolio/static/media/fb2a300.769e5ebe06f0883818ba.jpg",
     "static/media/fb4a300.jpg": "/react-portfolio/static/media/fb4a300.ccff87bff44afb376c36.jpg",
     "static/media/fb1a300.jpg": "/react-portfolio/static/media/fb1a300.bd059eed9397b6129ecd.jpg",
@@ -12,16 +13,15 @@
     "static/media/fb0a300.jpg": "/react-portfolio/static/media/fb0a300.4f84264bfecaf965e34f.jpg",
     "static/media/resume.jpg": "/react-portfolio/static/media/resume.b5c2cc467dfc4d318e0c.jpg",
     "static/media/fb3a300.jpg": "/react-portfolio/static/media/fb3a300.ad155b795d253f0281f4.jpg",
-    "static/media/taskmaster.jpg": "/react-portfolio/static/media/taskmaster.afbd59b648b32b5b677d.jpg",
     "static/media/weather.jpg": "/react-portfolio/static/media/weather.1b9e308d7f1541830949.jpg",
     "static/media/shred-it.jpg": "/react-portfolio/static/media/shred-it.116d352140680b1dbe71.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.06a2216b.css.map": "/react-portfolio/static/css/main.06a2216b.css.map",
-    "main.1ee92f11.js.map": "/react-portfolio/static/js/main.1ee92f11.js.map",
+    "main.e48ee765.js.map": "/react-portfolio/static/js/main.e48ee765.js.map",
     "787.49db043d.chunk.js.map": "/react-portfolio/static/js/787.49db043d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06a2216b.css",
-    "static/js/main.1ee92f11.js"
+    "static/js/main.e48ee765.js"
   ]
 }
